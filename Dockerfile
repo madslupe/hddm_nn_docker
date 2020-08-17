@@ -6,4 +6,4 @@ RUN conda config --add channels conda-forge
 RUN pip install 'kabuki==0.6.3'
 RUN pip install 'seaborn==0.9.0'
 RUN pip install 'tqdm'
-RUN pip install 'hddm==0.8.0'
+RUN pip install -U --no-deps 'git+https://github.com/madslupe/hddm@nn_likelihood'
